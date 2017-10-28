@@ -1,0 +1,16 @@
+rootProject.name = 'rtcomps'
+
+def String[] modules = [
+        'data',
+        'core',
+	'microservices',
+	'services'
+]
+
+include modules
+
+modules.each {name ->
+	def p = findProject(":${name}")
+	p.name = "rtcomps-${name}"
+	p.buildFileName = "${name}.gradle"
+}

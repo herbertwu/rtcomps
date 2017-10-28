@@ -1,0 +1,19 @@
+apply plugin: 'base'
+
+description = 'Real time comps'
+
+allprojects {
+	apply plugin: 'idea'
+	apply plugin: 'eclipse'
+
+	ext.releaseBuild = version.endsWith('RELEASE')
+	ext.snapshotBuild = version.endsWith('SNAPSHOT')
+	ext.springVersion = '4.3.5.RELEASE'
+	ext.springLdapVersion = '2.2.0.RELEASE'
+
+	group = 'com.rtcomps'
+
+	repositories {
+	mavenCentral()
+	}
+}
