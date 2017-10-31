@@ -1,17 +1,12 @@
 package com.rtcomps.data;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.rtcomps.core.def.Address;
+import com.rtcomps.core.def.HomePrice;
 
 
 
-public class PriceDao {
+public interface PriceDao {
 
-	public PriceDao() {
-	}
-
-	public List listAllTestCases() throws Exception {
-		return new ArrayList();
-	}
+	HomePrice getPrice(String url, Address addr);
 
 }

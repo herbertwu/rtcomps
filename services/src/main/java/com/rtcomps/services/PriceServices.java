@@ -1,7 +1,7 @@
 package com.rtcomps.services;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.rtcomps.core.def.Address;
+import com.rtcomps.core.def.HomePrice;
 
 
 
@@ -10,8 +10,8 @@ public class PriceServices {
 	public PriceServices() {
 	}
 
-	public List listAllPrices() throws Exception {
-		return new ArrayList();
+	public HomePrice getPrice(Address addr) throws Exception {
+		return null;
 	}
 
 }

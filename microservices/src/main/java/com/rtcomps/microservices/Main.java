@@ -8,7 +8,7 @@ import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-@SpringBootApplication(scanBasePackages = { "com.jgreenlight"})
+@SpringBootApplication(scanBasePackages = { "com.rtcomps"})
 @EnableAutoConfiguration
 public class Main {
 	public static void main(String[] args) {
