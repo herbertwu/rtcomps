@@ -34,6 +34,7 @@ dependencies {
     compile "org.springframework:spring-context:4.3.7.RELEASE"
     compile "org.springframework:spring-core:4.3.7.RELEASE"
     compile "org.springframework:spring-beans:4.3.7.RELEASE"
+    compile "org.springframework:spring-web:4.3.7.RELEASE"
 	// Use JUnit test framework
     testCompile 'junit:junit:4.12'
     testCompile 'org.easymock:easymock:3.4'  
