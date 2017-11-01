@@ -2,7 +2,7 @@
 /.gradle/
 /build/
 .classpath
-.
+.*
 *.class
 *.jar*
 *.html
