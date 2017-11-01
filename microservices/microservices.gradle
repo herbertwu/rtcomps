@@ -40,7 +40,8 @@ dependencies {
     compile project(':rtcomps-services')
   	compile "org.springframework.boot:spring-boot-starter-actuator:1.5.2.RELEASE"
   	compile "org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE"
-  	compile "com.google.guava:guava:20.0"
+  	compile "org.springframework.kafka:spring-kafka:1.2.0.RELEASE"
+  	compile "com.google.guava:guava:22.0"
 	// Use JUnit test framework
     testCompile 'junit:junit:4.12'
     testCompile 'org.easymock:easymock:3.4'

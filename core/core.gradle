@@ -43,6 +43,22 @@ dependencies {
     compile "org.freemarker:freemarker:2.3.14"
     compile "org.seleniumhq.selenium:selenium-java:3.5.2"
     compile "org.apache.commons:commons-email:1.5"
+    
+    compile "com.fasterxml.jackson.core:jackson-databind:2.8.8"
+    compile "com.google.guava:guava:22.0"
+    compile "org.quartz-scheduler:quartz:2.3.0"
+    compile "org.quartz-scheduler:quartz-jobs:2.3.0"
+    compile "org.springframework:spring-tx:4.3.7.RELEASE"
+    compile "org.springframework:spring-context-support:4.3.7.RELEASE"
+    
+    //MongoDB integration
+    compile 'org.springframework.boot:spring-boot-starter-data-mongodb:1.5.7.RELEASE'
+    compile "commons-codec:commons-codec:1.10"
+    compile files('libs/quartz-mongodb-2.0.0.jar')
+    
+    // kafka changes
+    compile "org.springframework.kafka:spring-kafka:1.2.0.RELEASE"
+    
 	// Use JUnit test framework
     testCompile 'junit:junit:4.12'
     testCompile 'org.easymock:easymock:3.4'  
